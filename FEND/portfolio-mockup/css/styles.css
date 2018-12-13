@@ -1,0 +1,63 @@
+
+.row.content {
+  height: 700px;
+}
+
+.sidenav {
+  height: 100%;
+}
+
+main {
+    padding-top: 15px;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#logo{
+  width: 100px;
+  height: 100px;
+}
+
+.divider {
+  border-top:3px solid #7d97ad;
+  padding: 10px 5px 10px 2px;
+}
+
+.styled-text {
+  color: #7d97ad;
+  font-size: 250%;
+}
+
+.card {
+  border: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .row.content {
+    height: auto;
+  } 
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .row.content {
+    height: auto;
+  } 
+  .card-image-top {
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+

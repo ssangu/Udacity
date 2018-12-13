@@ -1,0 +1,40 @@
+body{
+  font-family: sans-serif, Arial, Verdana;
+}
+
+.page{
+  width: 300px;
+  padding:20px;
+  border:1px solid #bbbbaa;
+  box-shadow:10px 10px 10px rgba(63, 81, 181, 0.2);
+}
+
+.name{
+  padding-bottom: 10px;
+}
+
+img{
+  width:300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+.fact{
+  font-style: italic;
+}
+
+.attributelist{
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li>span{
+  font-weight: bold;
+}
+
+.details{
+    width:280px;
+    border:1px solid #bbbbaa;
+    padding:10px;
+}

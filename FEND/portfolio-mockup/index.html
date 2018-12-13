@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="container-fluid text-center">  <!-- Page container -->
+
+    <main class="row content">  <!-- Main content container -->
+      
+      <aside class="col-sm-3 sidenav d-flex"> <!-- Sidebar -->
+        <div class="nav flex-column align-self-center d-none d-sm-block">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active font-weight-bold" href="#project1">Mockup to article</a>
+                <p class="font-italic">My first HTML project in Udacity!</p>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#project2">Animal trading card</a>
+                <p class="font-italic">My first CSS project in Udacity!</p>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-weight-bold" href="#project3">Pixel art maker</a>
+                <p class="font-italic">My first JavaScript project in Udacity!</p>
+              </li>
+            </ul>
+        </div>
+      </aside> <!-- Sidebar ends -->
+      
+      <section class="col-sm-9 text-left"> <!-- Section container -->
+        
+        <header>
+          <div class="row">
+            <div class="col-sm-12 text-right">
+              <img src="img/udacity.png"
+              class="img-fluid float-left" id="logo" title="udacitylogo" alt="udacity logo">
+                <h1>Sangeetha Shan</h1>
+                <h4>Front-end Ninja</h4>
+            </div>
+          </div>
+        </header>
+
+        <nav class="navbar navbar-expand-sm navbar-inverse navbar-light"> <!--Navbar -->
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>                   
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav nav-pills nav-fill">
+                <li class="nav-item font-weight-bold"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Clients</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>  <!-- Navbar toggler ends -->
+        
+        <div class="row">
+            <div class="col-sm-12 divider">
+              <img src="img/web-design.jpg" class="img-fluid"  alt="Web Design">  
+            </div>
+        </div> 
+
+        <section class="row text-center"> <!-- Subsection container -->
+
+            <header class="col-sm-12 styled-text"> 
+              <h2>Featured Work</h2>
+            </header>
+
+            <article class="col-sm-4">
+              <div class="card">
+                <img src="img/gui.png" id="project1" class="card-image-top img-fluid"  alt="Mockup article">
+                  <div class="card-body">
+                    <h5 class="card-title">Mockup to article</h5>
+                    <a class="card-link" href="#">https://github.com/ss/articleMockup</a>
+                  </div>
+              </div>
+            </article>
+
+            <article class="col-sm-4">
+                <div class="card">
+                  <img src="img/cheetah.jpg" id="project2" class="card-image-top img-fluid" alt="Cheetah">
+                  <div class="card-body">
+                    <h5>Animal trading card</h5>
+                    <a class="card-link" href="#">https://github.com/ss/tradingCard</a>
+                  </div>
+                </div>
+            </article>
+
+            <article class="col-sm-4">
+              <div class="card">
+                <img src="img/pixel.jpg" id="project3" class="card-image-top img-fluid"  alt="Pixel art">
+                <div class="card-body">
+                  <h5>Pixel art maker</h5>
+                  <a class="card-link" href="#">https://github.com/ss/pixelArt</a>
+                </div>
+              </div>
+            </article>
+
+          </section> <!-- End of subsection container -->
+
+      </section>  <!-- End of main section container --> 
+
+    </main>  <!-- End of main content container -->
+
+  </div> <!-- End of page container -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
